@@ -45,7 +45,7 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-        supportActionBar!!.title = "Log in to Shopping App"
+        supportActionBar!!.title = "Log in to Convenient Farmer"
         passwordEditText = findViewById(R.id.password)
         usernameEditText = findViewById(R.id.username)
         rememberMeCheckbox = findViewById(R.id.remember_me)

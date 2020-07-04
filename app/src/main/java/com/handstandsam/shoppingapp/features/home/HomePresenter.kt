@@ -35,7 +35,7 @@ class HomePresenter(
 
 
         val currentUser = sessionManager.currentUser
-        val welcomeStr = "Welcome back " + currentUser?.firstname + " " + currentUser?.lastname
+        val welcomeStr = "Welcome to Convenient Farmer"
         view.setWelcomeMessage(welcomeStr)
     }
 }
